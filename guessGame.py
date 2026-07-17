@@ -6,10 +6,11 @@ while guess_count < number_of_trys :
     guess_count+=1
     user_number=int(input("Guess: "))
     if user_number == secret_number :
-        print(" congratulation thats the eight Number ") 
+        print(" congratulation thats the right Number ") 
         break
 else:
     print('''
 Game over
           fuck you hahahaha
 ''')
+    
