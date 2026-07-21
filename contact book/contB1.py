@@ -10,11 +10,18 @@ def show_menu() :
 ''')
 
 def add_contact (contact_list,name , number):
+    for contact in contact_list:
+        if contact["name"].lower() == name.lower():
+            print("Contact already exists.")
+            return
+        
     contact = {
-        "name" : name,
-        "number" : number 
+        "name": name,
+        "number": number
     }
+
     contact_list.append(contact)
+    print("Contact Added Successfully")
 
 def view_contact(contact_list) :
     for index,contact in enumerate(contact_list,start=1):
