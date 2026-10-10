@@ -9,6 +9,19 @@ A public learning and project workspace focused on **AI automation engineering**
 - Building reliable, maintainable automations
 - Documenting experiments, lessons learned, and future projects
 
+## Explore the current work
+
+These are learning projects and prototypes, with source code available to review.
+
+| Project | What it explores |
+| --- | --- |
+| [OpenRouter chat assistant](open%20router/main.py) | A Python command-line chat loop with conversation history, environment-based API configuration, and attempts across multiple models. |
+| [Weather app](weather%20app/weather_app.py) | Calling Open-Meteo geocoding and forecast APIs to display current weather for a city. |
+| [Contact book](contact%20book/contB1.py) | Adding, viewing, searching, and deleting contacts in memory. |
+| [To-do list](to%20do%20list/listEx.py) | A menu-based task list with add, view, and remove operations. |
+
+Additional exercises cover Python basics, a calculator, a guessing game, notes, and student records. These projects form the foundation for future automation workflows.
+
 ## Repository status
 
 🚧 **Work in progress** — this repository is being organized as a portfolio of AI automation work. Individual projects, demos, and implementation details will be added as they become available.
